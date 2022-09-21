@@ -42,8 +42,6 @@ body:
       options:
         - Public
         - Private
-    validations:
-      required: true
       
   - type: dropdown
     id: repo-license
@@ -57,8 +55,6 @@ body:
         - Apache License 2.0
         - GNU General Public License v2.0
         - MIT License
-      validations:
-        required: true
       
   - type: markdown
     attributes:
@@ -72,14 +68,13 @@ body:
       description: |
         Select options for creating the new repository
       options:
-        - label: Add a README.md file
-        - label: Add a .gitignore file
+        - label: "Add a README.md file"
+        - label: "Add a .gitignore file"
   
   - type: input
-    id: repo-name
+    id: repo-gitignore-type
     attributes:
-      label: Specify a .gitignore file type
+      label: Specify a .gitignore file type. Choose from the .gitignore language/file types listed [here](https://github.com/github/gitignore).
       placeholder: <enter .gitignore file type>
-    description: |
-          Choose from the .gitignore language/file types listed [here](https://github.com/github/gitignore)
+          
   
