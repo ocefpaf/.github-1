@@ -1,0 +1,83 @@
+name: New IOOS Repository Request
+description: Request a new repository under the IOOS Organization
+labels: repo
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Complete the form fields below with information about the repository you'd like to create
+
+  - type: input
+    id: repo-name
+    attributes:
+      label: Repository name
+      placeholder: <enter repo name>
+    validations:
+      required: true
+
+  - type: textarea
+    id: repo-purpose
+    attributes:
+      label: Repo purpose
+      description: |
+        Please describe in a few sentences why this repository is needed and why it belongs in the IOOS Organization on GitHub.  A few questions for consdieration: does it relate to an IOOS project, is it being developed by IOOS personnel or partners, does it add to or compliment existing IOOS packages or modules? 
+    validations:
+      required: true
+
+  - type: textarea
+    id: repo-description
+    attributes:
+      label: Repo description
+      description: |
+        Provide a description of the repository for public display (this will be entered into the corresponding field if the repository is accepted and created)
+    validations:
+      required: true
+     
+  - type: dropdown
+    id: repo-type
+    attributes:
+      label: Repo type
+      description: Should the repository be public or private?
+      options:
+        - Public
+        - Private
+    validations:
+      required: true
+      
+    - type: dropdown
+      id: repo-license
+      attributes:
+        label: Repo license
+      description: Which license should be applied?  IOOS preferes BSD-3 for software and CC0 v1.0 for documentation.
+      options:
+        - BSD 3-Clause
+        - Creative Commons Zero v1.0 Universal
+        - Apache License 2.0
+        - GNU General Public License v2.0
+        - MIT License
+      validations:
+        required: true
+      
+    - type: markdown
+      attributes:
+      value: |
+        **More repo information**
+  
+    - type: checkboxes
+      id: repo-options
+      attributes:
+        label: Repo options
+      description: |
+          Select options for creating the new repository
+      options:
+        - label: Add a README.md file
+        - label: Add a .gitignore file
+  
+  - type: input
+    id: repo-name
+    attributes:
+      label: Specify a .gitignore file type
+      placeholder: <enter .gitignore file type>
+    description: |
+          Choose from the .gitignore language/file types listed [here](https://github.com/github/gitignore)
+  
