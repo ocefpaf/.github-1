@@ -37,18 +37,20 @@ body:
     id: repo-type
     attributes:
       label: Repo type
-      description: Should the repository be public or private?
+      description: |
+        Should the repository be public or private?
       options:
         - Public
         - Private
     validations:
       required: true
       
-    - type: dropdown
-      id: repo-license
-      attributes:
-        label: Repo license
-      description: Which license should be applied?  IOOS preferes BSD-3 for software and CC0 v1.0 for documentation.
+  - type: dropdown
+    id: repo-license
+    attributes:
+      label: Repo license
+      description: |
+        Which license should be applied?  IOOS prefers BSD-3 for software and CC0 v1.0 for documentation.
       options:
         - BSD 3-Clause
         - Creative Commons Zero v1.0 Universal
@@ -58,17 +60,17 @@ body:
       validations:
         required: true
       
-    - type: markdown
-      attributes:
+  - type: markdown
+    attributes:
       value: |
         **More repo information**
   
-    - type: checkboxes
-      id: repo-options
-      attributes:
-        label: Repo options
+  - type: checkboxes
+    id: repo-options
+    attributes:
+      label: Repo options
       description: |
-          Select options for creating the new repository
+        Select options for creating the new repository
       options:
         - label: Add a README.md file
         - label: Add a .gitignore file
