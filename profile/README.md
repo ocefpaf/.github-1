@@ -11,7 +11,7 @@ For more information about U.S. IOOS visit: [https://ioos.noaa.gov](https://ioos
 
 A short list of common community requests.
 
-- **Add new contributors to IOOS repositories** - email micah dot wengren at noaa dot gov, melissa dot zweng at noaa dot gov, or mathew dot biddle at noaa dot gov.  Please include the following:
+- **Add new contributors to IOOS repositories** - email micah dot wengren at noaa dot gov, or mathew dot biddle at noaa dot gov.  Please include the following:
     - GitHub handle(s) of the new contributor(s)
     - IOOS [team](https://github.com/orgs/ioos/teams) that they should be added to
 - **Create a new IOOS repository** - fill out the [new repository request form](https://github.com/ioos/governance/issues/new?template=new-repository.yml)
