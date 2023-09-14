@@ -2,4 +2,4 @@ blank_issues_enabled: true
 contact_links:
   - name: Join the 'ioos_tech' Google Group
     url: https://groups.google.com/g/ioos_tech
-    about: Community forum for discussion and questions about IOOS' data, services, open source software packages, and DMAC community.  Non-technical or code-related questions can be posed in 'ioos_tech' instead.
+    about: Community forum for discussion and questions about IOOS' data, services, open source software packages, and DMAC community.  Questions that are not about technical or code-related matters can be posted in the 'ioos_tech' Google Group instead.
