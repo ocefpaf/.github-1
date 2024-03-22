@@ -9,7 +9,7 @@ In this guide we will get you setup and integrated into contributing to IOOS Sof
 First off, thank you for considering contributing to IOOS.
 It's people like you that make the IOOS community useful and successful.
 There are many ways to contribute,
-from writing tutorials or examples for out [notebook gallery](https://ioos.github.io/ioos_code_lab/content/intro.html),
+from writing tutorials or examples for our [notebook gallery](https://ioos.github.io/ioos_code_lab/content/intro.html),
 improvements to the documentation,
 submitting bug reports and feature requests,
 or even writing code which can be incorporated into IOOS software for everyone to use.
@@ -66,7 +66,7 @@ requesting something you think is missing.
 
 We recommend using the [conda](https://conda.io/docs/) package manager for your Python environments.
 Please take some time to go over the instruction for a basic [IOOS environment](https://ioos.github.io/ioos_code_lab/content/ioos_installation_conda.html).
-However, bare in mind that some repository may require their own environment to function properly.
+However, bear in mind that some repositories may require their own environment to function properly.
 Please check each repository README file.
 
 Install [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
@@ -156,7 +156,7 @@ Push to your fork and submit a pull request.
 
 ## What happens after the pull request
 
-You've make your changes, documented them, added some tests, and submitted a pull request.
+You've made your changes, documented them, added some tests, and submitted a pull request.
 What now?
 
 ### Automated Testing
